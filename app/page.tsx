@@ -1,27 +1,14 @@
 export default function Home() {
   return (
-    <main className="p-8 max-w-2xl">
-      <h1 className="text-xl font-bold mb-6">MOSCONE.XYZ</h1>
-
-      <hr className="border-gray-400 mb-6" />
-
-      <nav className="space-y-2">
-        <p>
-          <a href="#" className="text-blue-600 underline hover:text-blue-800">
-            About
-          </a>
-        </p>
-        <p>
-          <a href="#" className="text-blue-600 underline hover:text-blue-800">
-            Contact
-          </a>
-        </p>
-      </nav>
-
-      <hr className="border-gray-400 my-6" />
+    <main className="min-h-screen p-8 flex flex-col">
+      <div className="flex-1">
+        <h1 className="text-xl font-bold mb-2">Moscone Holding B.V.</h1>
+        <p className="text-gray-600">A technology investment company</p>
+      </div>
 
       <footer className="text-sm text-gray-600">
-        <p>&copy; {new Date().getFullYear()} moscone.xyz</p>
+        <p>Moscone Holding B.V. 2026 Rotterdam, Nederland</p>
+        <p>Kamer van Koophandel 76045412</p>
       </footer>
     </main>
   );

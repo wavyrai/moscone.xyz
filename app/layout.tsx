@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "moscone.xyz",
-  description: "moscone.xyz",
+  title: "Moscone Holding B.V.",
+  description: "A Technology Investment Company",
 };
 
 export default function RootLayout({
