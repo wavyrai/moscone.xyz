@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="min-h-screen p-8 flex flex-col">
+    <main className="min-h-[90vh] p-8 flex flex-col">
       <div className="flex-1">
         <h1 className="text-xl font-bold mb-2">Moscone Holding B.V.</h1>
         <p className="text-gray-600">A technology investment company</p>
